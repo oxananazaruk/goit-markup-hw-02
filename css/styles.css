@@ -10,12 +10,10 @@
 
 body {
   color: var(--secondary-color);
-   background-color: var(--invert-color);
+  background-color: var(--invert-color);
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
   font-weight: 400;
-  letter-spacing: 0.02em;
-  line-height: 1.5;
 }
 
 .list {
@@ -25,6 +23,9 @@ body {
 }
 
 /* Header */
+.link {
+  text-decoration: none;
+}
 .logo {
   font-family: 'Raleway', sans-serif;
   font-weight: 800;
@@ -42,8 +43,9 @@ body {
 
 .nav-link {
   color: var(--color-primary);
-  text-decoration: none;
   font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
 .nav-link:hover,
@@ -51,10 +53,14 @@ body {
   color: var(--color-active);
 }
 
+.address {
+  font-style: normal;
+}
+
 .contact-link {
   color: var(--secondary-color);
-  font-style: normal;
-  text-decoration: none;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
 .contact-link:hover,
@@ -75,6 +81,7 @@ body {
   letter-spacing: 0.02em;
   text-align: center;
   line-height: 1.07;
+  letter-spacing: 0.02em;
 }
 
 .hero-button {
@@ -104,6 +111,12 @@ body {
   font-size: 20px;
   letter-spacing: 0.02em;
   line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+
+.adventages-text {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
 .section-title {
@@ -111,7 +124,7 @@ body {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
-   letter-spacing: 0.02em;
+  letter-spacing: 0.02em;
   text-align: center;
   text-transform: capitalize;
 }
@@ -131,12 +144,14 @@ body {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
-   letter-spacing: 0.02em;
+  letter-spacing: 0.02em;
   text-align: center;
 }
 
 .team-position {
+  line-height: 1.5;
   text-align: center;
+  letter-spacing: 0.02em;
 }
 
 /* Footer */
@@ -144,6 +159,8 @@ body {
 .footer {
   color: var(--light-color);
   background-color: var(--color-primary);
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
 .logo-footer {
@@ -183,6 +200,8 @@ body {
   line-height: 1.2;
   letter-spacing: 0.02em;
 }
-.content-category{
+.content-category {
   color: var(--secondary-color);
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
