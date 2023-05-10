@@ -189,10 +189,6 @@ body {
 }
 
 /* Examples of work */
-.content-link {
-  text-decoration: none;
-}
-
 .content-title {
   color: var(--color-primary);
   font-weight: 500;
