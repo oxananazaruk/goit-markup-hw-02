@@ -5,7 +5,6 @@
   --secondary-color: #434455;
   --light-color: #f4f4fd;
   --color-active: #404bbf;
-  --filter-btn-color: #e7e9fc;
 }
 
 body {
@@ -170,7 +169,7 @@ body {
 /* Portfolio page */
 .filter-button {
   color: var(--color-brand);
-  background-color: var(--filter-btn-color);
+  background-color: var(--light-color);
   cursor: pointer;
   border-radius: 4px;
   font-family: 'Roboto', sans-serif;
